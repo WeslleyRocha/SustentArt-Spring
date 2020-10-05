@@ -8,11 +8,11 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.reciclarte</groupId>
-	<artifactId>recicla</artifactId>
+	<groupId>com.sustentart</groupId>
+	<artifactId>SustentArt</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>recicla</name>
-	<description>Rede social para conectar pessoas, ideias e ressignificar o que fazemos com nosso lixo.</description>
+	<name>SustentArt</name>
+	<description>Considerando o grande impacto ambiental que o consumo humano traz, e com base na ODS 12 da ONU, nossa ideia é trazer impacto na sociedade através da diminuição do desperdício, reaproveitando recursos e, ao mesmo tempo, criar uma rede de apoio na comunidade.</description>
 
 	<properties>
 		<java.version>1.8</java.version>

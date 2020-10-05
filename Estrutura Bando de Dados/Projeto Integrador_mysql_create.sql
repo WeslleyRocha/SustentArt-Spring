@@ -4,7 +4,6 @@ CREATE TABLE `usuario` (
 	`email` varchar(30) NOT NULL,
 	`senha` varchar(12) NOT NULL,
 	`telefone` int(12) NOT NULL,
-	`data_nascimento` DATE NOT NULL,
 	PRIMARY KEY (`id`)
 );
 
@@ -14,9 +13,9 @@ CREATE TABLE `postagem` (
 	`descricao` TEXT NOT NULL,
 	`regiao` varchar(50) NOT NULL,
 	`data` DATE NOT NULL,
-	`imagem` mediumblob NOT NULL,
-	`topico` varchar(40) NOT NULL,
-	`checkbox` BOOLEAN NOT NULL,
+	`imagens` varchar(255) NOT NULL,
+	`material` varchar(100) NOT NULL,
+	`tipo_presenca` BOOLEAN NOT NULL,
 	`tema_id` bigint NOT NULL,
 	`usuario_id` bigint NOT NULL,
 	PRIMARY KEY (`id`)
@@ -25,7 +24,6 @@ CREATE TABLE `postagem` (
 CREATE TABLE `tema` (
 	`id` bigint NOT NULL AUTO_INCREMENT,
 	`conteudo` varchar(200) NOT NULL,
-	`material` varchar(50) NOT NULL,
 	`data` DATETIME NOT NULL,
 	PRIMARY KEY (`id`)
 );
