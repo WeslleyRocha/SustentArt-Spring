@@ -24,5 +24,5 @@ Desta forma, a ideia é desenvolver uma rede social, conectando os anunciantes e
 ## :memo: Documentação :bookmark_tabs:
 
 :heavy_check_mark: ### [Banco de Dados] (https://github.com/WeslleyRocha/Projeto-Integrador-Generation/tree/crud_tabela_01/Estrutura%20Bando%20de%20Dados)<br>
-:heavy_check_mark: ### [Ideação do projeto] (https://github.com/WeslleyRocha/Projeto-Integrador-Generation/tree/crud_tabela_01/Ideia%20do%20Projeto%20Integrador)<br>
+:heavy_check_mark: ### [Ideação do Projeto] (https://github.com/WeslleyRocha/Projeto-Integrador-Generation/tree/crud_tabela_01/Ideia%20do%20Projeto%20Integrador)<br>
 :heavy_check_mark: ### [Estrutura] (https://github.com/WeslleyRocha/Projeto-Integrador-Generation/tree/crud_tabela_01/SustentArt/src/main/java/com/sustentart/SustentArt)<br>
