@@ -1,6 +1,6 @@
  <h1><b> :earth_africa: SustentArt :recycle: </b></h1> 
 
-A <b><i>SustentArt</i></b> vai criar uma comunidade de pessoas interessadas em dar uma nova utilidade para itens que, muitas vezes são considerados como lixo e, ainda, ensinará, por meio de oficinas e cursos, pessoas interessadas em aprender novas habilidades (seja com hobby ou como nova forma de empreender), usando os itens à disposição na <b><i>SustentArt</i></b> como matéria-prima.
+<div align=”center”> A <b><i>SustentArt</i></b> vai criar uma comunidade de pessoas interessadas em dar uma nova utilidade para itens que, muitas vezes são considerados como lixo e, ainda, ensinará, por meio de oficinas e cursos, pessoas interessadas em aprender novas habilidades (seja com hobby ou como nova forma de empreender), usando os itens à disposição na <b><i>SustentArt</i></b> como matéria-prima. </div>
 
 
 
