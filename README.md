@@ -7,8 +7,8 @@
 
 ### 🙋‍♀️ Integrantes 🙋‍♂️
 
-[Vanessa Marchetti](https://github.com/marchettivanessa)<br>
-[Henrique Tanaka](https://github.com/henritanaka)<br>
+<ul>[Vanessa Marchetti](https://github.com/marchettivanessa)<br></ul>
+<hi>[Henrique Tanaka](https://github.com/henritanaka)<br>
 [Josimar Santos](https://github.com/Josimar722)<br>
 [Weslley Rocha](https://github.com/WeslleyRocha)<br><br><br>
 
