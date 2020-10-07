@@ -1,4 +1,12 @@
-#SustentArt
+ <h1><b> :earth_africa: SustentArt :recycle: </b></h1> 
+
+
+
+
+### 🙋‍♀️ Integrantes 🙋‍♂️
+
+
+
 
 ## Projeto Integrador Generation
 
