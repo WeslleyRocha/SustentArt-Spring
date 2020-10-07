@@ -12,7 +12,7 @@
 
 
 
-## Projeto Integrador [Generation BR](https://brazil.generation.org/)
+## 📈 Projeto Integrador [Generation BR](https://brazil.generation.org/) 📚
 
 O problema social escolhido está incluído dentro da <b>ODS 12</B>: Consumo e produção responsáveis. A ideia é trazer impacto na sociedade através da diminuição do desperdício, reaproveitando recursos, ao mesmo tempo, criar uma rede de apoio na comunidade.
 
