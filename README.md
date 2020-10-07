@@ -5,10 +5,10 @@
 
 ### 🙋‍♀️ Integrantes 🙋‍♂️
 
-[Vanessa Marchetti](https://github.com/marchettivanessa)
-[Henrique Seiji)(https://github.com/henritanaka)
-[Josimar Santos](https://github.com/Josimar722)
-[Weslley Rocha](https://github.com/WeslleyRocha)
+[Vanessa Marchetti](https://github.com/marchettivanessa)<br>
+[Henrique Tanaka](https://github.com/henritanaka)<br>
+[Josimar Santos](https://github.com/Josimar722)<br>
+[Weslley Rocha](https://github.com/WeslleyRocha)<br>
 
 
 ## Projeto Integrador Generation
