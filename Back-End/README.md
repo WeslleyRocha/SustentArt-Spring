@@ -1,31 +1,60 @@
-<h1><b> :earth_africa: SustentArt :recycle: </b></h1> 
+<h1><b> :memo: Documentação Back-End :bookmark_tabs: </b></h1> 
 
- A <b><i>SustentArt</i></b> vai criar uma comunidade de pessoas interessadas em dar uma nova utilidade para itens que, muitas vezes são considerados como lixo e, ainda, ensinará, por meio de oficinas e cursos, pessoas interessadas em aprender novas habilidades (seja com hobby ou como nova forma de empreender), usando os itens à disposição na <b><i>SustentArt</i></b> como matéria-prima. <br><br>
+ 
+ <h2> •	Crud </h2>
 
-
-### 🙋‍♀️ Integrantes 🙋‍♂️
-
-[Vanessa Marchetti](https://github.com/marchettivanessa)<br>
-[Henrique Tanaka](https://github.com/henritanaka)<br>
-[Josimar Santos](https://github.com/Josimar722)<br>
-[Weslley Rocha](https://github.com/WeslleyRocha)<br><br><br>
-
-
-
-## :chart_with_upwards_trend: Projeto Integrador [Generation BR](https://brazil.generation.org/) :bar_chart:
-
-O problema social escolhido está incluído dentro da <b>ODS 12</B>: Consumo e produção responsáveis. A ideia é trazer impacto na sociedade através da diminuição do desperdício, reaproveitando recursos, ao mesmo tempo, criar uma rede de apoio na comunidade.
-
-Como motivação, pensamos no fato de que vivemos em uma sociedade desigual, na qual a fome está aumentando, e a dificuldade de acesso a produtos também. Desta forma, conectar determinadas comunidades numa rede de apoio mútuo, repensando a destinação de produtos muitas vezes considerados como lixo pode ajudar pequenos produtores e artesãos com matéria prima para elaborar e vender seus produtos.
-
-Desta forma, a ideia é desenvolver uma rede social, conectando os anunciantes e interessados (agrupando-os, especialmente, de acordo com sua região de moradia). O tema a será a doação/reciclagem de produtos de forma local, para que sirvam de matéria prima para produções artesanais, entre outras finalidades. Haverá, ainda um espaço aberto para tutoriais de como reciclar/utilizar as matérias primas.<br>
+| Métodos       | End-Points                         | Descrição                                                                 |
+|---------------|------------------------------------|---------------------------------------------------------------------------|
+|     GET       |     /tema                          |     Lista todos os temas existentes.                                      |
+|     GET       |     /tema/ {id}                    |     Lista temas específicos por ID.                                       |
+|     GET       |     /tema/conteudo/{conteudo}      |     Lista temas específicos de acordo com o   conteúdo.                   |
+|     GET       |     /tema/dataehora/{dataehora}    |     Lista temas específicos de acordo com a data   e hora da postagem.    |
+|     POST      |     /tema                          |     Insere dados na tabela.                                               |
+|     PUT       |     /tema                          |     Altera dados na tabela.                                               |
+|     DELETE    |     /tema/{id}                     |     Deleta dados pelo ID.                                                 |
 
 
-## :memo: Documentação :bookmark_tabs:
+Nossa tabela terá todos os __End-Points__ básicos, isto é, **Get**, **Post**, **Put** e **Delete**. Aliado a isto, criamos um método geral, para buscar todos os conteúdos dentro da tabela, bem como outros três métodos de busca específicos: por id, conteúdo e data e hora.  
 
-:heavy_check_mark: [Banco de Dados](https://github.com/WeslleyRocha/Projeto-Integrador-Generation/tree/crud_tabela_01/Estrutura%20Bando%20de%20Dados)<br>
-:heavy_check_mark: [Ideação do Projeto](https://github.com/WeslleyRocha/Projeto-Integrador-Generation/tree/crud_tabela_01/Ideia%20do%20Projeto%20Integrador)<br>
-:heavy_check_mark: [Back-End](https://github.com/WeslleyRocha/Projeto-Integrador-Generation/tree/crud_tabela_01/SustentArt/src/main/java/com/sustentart/SustentArt)<br>
-:clock3: [Logomarca]()<br>
-:clock3: [Front-End]()<br>
-:clock3: [Site]()<br>
+
+ <h2> •	Jaso </h2>
+ 
+ <h5>(a)	Postando dados (inserindo dados no banco de dados – método get): </h5>
+{
+	“conteudo”: “doação”
+	//data e hora não será necessário informar. Será inserido automaticamente pelo Java.
+}
+
+
+<h5>(b)	Recebendo dados:</h5>
+```
+{
+	“id”: 1,
+	“conteudo”: “doação”,
+	“dataehora”: “2020-09-01T13:47:44.663+00:00”,
+	“postagem”: null
+}
+
+```
+<h5>(c)	Consultando dados:</h5>
+
+```
+{
+	“id”: 1,
+	“conteudo”: ”Doação”,
+	“dataehora”: “2020-09-01T13:47:44.663+00:00”,
+	“postagem”:
+ [
+ 	{
+		“id”: 1,
+		“titulo”: “doação-vidro”,
+		“descricao”: “2kg em vidro disponível para doação. Retirada na R. dos Javalis, 12.”,
+		“regiao”: “Jabaquara-SP”,
+		“data”: “2020-12-11”,
+		“material”: “vidro”,
+		“tipopresenca”: “true”
+ 	}
+ ]
+}
+
+```
