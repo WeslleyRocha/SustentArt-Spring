@@ -19,7 +19,7 @@ Nossa tabela terá todos os __End-Points__ básicos, isto é, **Get**, **Post**,
 
  <h2> •	Jaso </h2>
  
- <h5>(a)	Postando dados (inserindo dados no banco de dados – método get): </h5>
+ <h5> - Postando dados (inserindo dados no banco de dados – método get): </h5>
 
 ~~~
 {
@@ -29,7 +29,7 @@ Nossa tabela terá todos os __End-Points__ básicos, isto é, **Get**, **Post**,
 ~~~
 
 
-<h5>(b)	Recebendo dados:</h5>
+<h5> - Recebendo dados:</h5>
 
 ~~~
 {
@@ -40,9 +40,8 @@ Nossa tabela terá todos os __End-Points__ básicos, isto é, **Get**, **Post**,
 }
 ~~~
 
-<h5>(c)	Consultando dados:</h5>
-~~~
-{
+<h5> - Consultando dados:</h5>
+~~~{
 	“id”: 1,
 	“conteudo”: ”Doação”,
 	“dataehora”: “2020-09-01T13:47:44.663+00:00”,
@@ -58,4 +57,5 @@ Nossa tabela terá todos os __End-Points__ básicos, isto é, **Get**, **Post**,
 		“tipopresenca”: “true”
  	}
  ]
-} ~~~
+}
+~~~
