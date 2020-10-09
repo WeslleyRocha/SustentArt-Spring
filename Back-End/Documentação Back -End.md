@@ -20,10 +20,12 @@ Nossa tabela terá todos os __End-Points__ básicos, isto é, **Get**, **Post**,
  <h2> •	Jaso </h2>
  
  <h5>(a)	Postando dados (inserindo dados no banco de dados – método get): </h5>
+ ```
 {
 	“conteudo”: “doação”
 	//data e hora não será necessário informar. Será inserido automaticamente pelo Java.
 }
+```
 
 
 <h5>(b)	Recebendo dados:</h5>
