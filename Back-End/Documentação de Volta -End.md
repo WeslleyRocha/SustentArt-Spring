@@ -41,6 +41,7 @@ Nossa tabela terá todos os __End-Points__ básicos, isto é, **Get**, **Post**,
 ~~~
 
 <h5> - Consultando dados:</h5>
+
 ~~~
 {
 	“id”: 1,
