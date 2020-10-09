@@ -34,10 +34,9 @@ Nossa tabela terá todos os __End-Points__ básicos, isto é, **Get**, **Post**,
 	“dataehora”: “2020-09-01T13:47:44.663+00:00”,
 	“postagem”: null
 }
-
 ```
-<h5>(c)	Consultando dados:</h5>
 
+<h5>(c)	Consultando dados:</h5>
 ```
 {
 	“id”: 1,
@@ -56,5 +55,4 @@ Nossa tabela terá todos os __End-Points__ básicos, isto é, **Get**, **Post**,
  	}
  ]
 }
-
 ```
