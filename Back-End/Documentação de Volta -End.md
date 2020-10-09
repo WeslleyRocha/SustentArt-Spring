@@ -48,7 +48,7 @@ Nossa tabela terá todos os __End-Points__ básicos, isto é, **Get**, **Post**,
 	“conteudo”: ”Doação”,
 	“dataehora”: “2020-09-01T13:47:44.663+00:00”,
 	“postagem”:
- [
+   [
  	{
 		“id”: 1,
 		“titulo”: “doação-vidro”,
@@ -58,6 +58,6 @@ Nossa tabela terá todos os __End-Points__ básicos, isto é, **Get**, **Post**,
 		“material”: “vidro”,
 		“tipopresenca”: “true”
  	}
- ]
+   ]
 }
 ~~~
