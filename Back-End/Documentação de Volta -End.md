@@ -39,7 +39,7 @@ Para evitar o problema da recursividade, usaremos, também, a anotação <b>@Jso
  
 Nossa tabela terá todos os __end-points__ básicos, o que possibilitará as operações básicas, isto é, **Get**, **Post**, **Put** e **Delete**. Ainda, teremos um método geral para buscar todas as postagens, bem como alguns métodos específicos filtrando a pesquisa de acordo com a id, o título, região ou data da postagem.
  
- <h2> • Json:  </h2> •
+ <h2> • Json:  </h2>
 
 <h5> - Postando dados (inserindo dados no banco de dados – método POST): </h5>
 
@@ -62,8 +62,8 @@ Nossa tabela terá todos os __end-points__ básicos, o que possibilitará as ope
 ~~~
 
 <h5> -	Recebendo/consultando dados (método GET): </h5>
-•	Método para pesquisa: <b>/postagem</b>
-•	Retorno esperado:
+•Método para pesquisa:<b>/postagem</b><br>
+•Retorno esperado:
 
 ~~~
 {
@@ -83,9 +83,44 @@ Nossa tabela terá todos os __end-points__ básicos, o que possibilitará as ope
 
 
 <h5> -	Deletando dados (método DELETE): </h5>
-•	Método para pesquisa: <b>/postagem/{id}</b>
-•	Retorno esperado: [] <i>//retorna status 200 OK. Isso quer dizer que a requisição foi atendida sem erros.</i>
+•Método para pesquisa:<b>/postagem/{id}</b><br>
+•Retorno esperado:[] <i>//retorna status 200 OK. Isso quer dizer que a requisição foi atendida sem erros.</i>
 
+ 
+  <h2> • Tabela Usuário </h2>
+|     ATRIBUTO                  |     TIPO                              |
+|-------------------------------|---------------------------------------|
+|     ID                        |     Long (bigint - MySql)             |
+|     Nome                      |     String (varchar – 100 - MySql)    |
+|     E-mail                    |     String (varchar – 30 - MySql)     |
+|     Senha                     |     String (varchar – 12 - MySql)     |
+|     Telefone                  |     int                               |
+|     Postagem [Foreign Key]    |     List<Postagem>                    |
+ 
+ A tabela _USUÁRIO_ terá o atributo ID, referente ao código de cada usuário, além dos atributos **nome**, **e-mail**, **senha** e **telefone**.
+ 
+  <h2> •Crud Usuário </h2>
+ 
+|     MÉTODOS    |     END-POINTS                   |     DESCRIÇÃO                                                     |
+|----------------|----------------------------------|-------------------------------------------------------------------|
+|     POST       |     /usuario/cadastrar           |     Cadastra o usuário na rede social.                            |
+|     POST       |     /usuario/logar               |     Faz o login de um usuário existente.                          |
+|     PUT        |     /usuario/atualizarUsuario    |     Faz atualizações em um cadastro de usuário já   existente.    |
+ 
+Nossa tabela __Usuário__ terá os end-points básicos, que possibilitarão as operações **Post** e **Put**, para que o usuário consiga se cadastrar, logar e alterar seu cadastro, se assim desejar.
+ 
+ <h2> • Json:  </h2>
+ <h5> - Postando dados (inserindo dados no banco de dados – método POST): </h5>
+ 
+ ~~~
+ {
+	“nome”: “Lisbeth Salander”,
+	“e-mail”: “lisbeth.salander@gmail.com”,
+	“senha”: “123deoliveiraquatro”,
+	“telefone”: 11999999999
+} 
+ ~~~
+ 
  
  
  
