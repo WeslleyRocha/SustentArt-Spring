@@ -1,16 +1,21 @@
 package com.sustentart.SustentArt.model;
 
 import java.util.Date;
+import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 
 @Entity //entidade de relacionamento
@@ -30,6 +35,10 @@ public class Tema {
 	
 	@Temporal(TemporalType.TIMESTAMP) //gera a data e hora automaticamente
 	private Date dataHora = new java.sql.Date(System.currentTimeMillis());
+	
+	@OneToMany(mappedBy = "tema", cascade = CascadeType.ALL)
+	@JsonIgnoreProperties("tema")
+	private List<Postagem> postagem;
 	
 	
 	public long getId() {
@@ -55,4 +64,26 @@ public class Tema {
 	public void setDataHora(Date dataHora) {
 		this.dataHora = dataHora;
 	}
+	
+	public List<Postagem> getPostagem() {
+		return postagem;
+	}
+	
+	public void setPostagem(List<Postagem> postagem) {
+		this.postagem = postagem;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
