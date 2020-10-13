@@ -1,6 +1,22 @@
 <h1><b> :memo: Documentação Back-End :bookmark_tabs: </b></h1> 
 
  
+ <h2> •	Tabela Postagem Usuario </h2>
+ 
+|     ATRIBUTO                    |     TIPO                              |
+|---------------------------------|---------------------------------------|
+|     ID                          |     Long (BigInt - MySql)             |
+|     Título                      |     String (Varchar – 50 - MySql)     |
+|     Descrição                   |     String (Text - MySql)             |
+|     Região                      |     String (Varchar - 50)             |
+|     Data                        |     Date (Date - MySql)               |
+|     Imagens                     |     String (Varchar-255 - MySql)      |
+|     Material                    |     String (Varchar – 100 - MySql)    |
+|     Tipo_presenca               |     Boolean                           |
+|     Tema_id [Foreign Key]       |     Long (Bigint - MySql)             |
+|     Usuário_id [Foreign Key]    |     Long (Bigint - MySql)             |
+ 
+ 
  <h2> •	Crud </h2>
 
 | Métodos       | End-Points                         | Descrição                                                                 |
