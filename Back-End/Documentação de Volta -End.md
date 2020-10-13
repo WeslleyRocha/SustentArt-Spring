@@ -120,8 +120,8 @@ Nossa tabela terá todos os __end-points__ básicos, o que possibilitará as ope
 ~~~
 {
 	“titulo”: “doação”,
-	“descricao”: “Olá pessoal, tenho materiais em vidro para doação. Não é uma quantidade muito grande,
-	~mas o suficiente para quem estiver trabalhando sozinho e não precise fazer nada em larga escala.”,
+	“descricao”: “Olá pessoal, tenho materiais em vidro para doação. Não é uma quantidade muito grande,mas o suficiente para 
+	quem estiver trabalhando sozinho e não precise fazer nada em larga escala.”,
 	“regiao”: “Jabaquara”,
 	“data”: “2020-09-22”,
 	“imagens”: “”,
@@ -142,7 +142,8 @@ Nossa tabela terá todos os __end-points__ básicos, o que possibilitará as ope
 ~~~
 {
 	“titulo”: “doação”,
-	“descricao”: “Olá pessoal, tenho materiais em vidro para doação. Não é uma quantidade muito grande, mas o suficiente para quem estiver trabalhando sozinho e não precise fazer nada em larga escala.”,
+	“descricao”: “Olá pessoal, tenho materiais em vidro para doação. Não é uma quantidade muito grande,mas o suficiente para 
+	quem estiver trabalhando sozinho e não precise fazer nada em larga escala.”,
 	“regiao”: “Jabaquara”,
 	“data”: “2020-09-22”,
 	“imagens”: “”,
@@ -158,8 +159,11 @@ Nossa tabela terá todos os __end-points__ básicos, o que possibilitará as ope
 
 <h5> -	Deletando dados (método DELETE): </h5>
 •Método para pesquisa:<b>/postagem/{id}</b><br>
-•Retorno esperado:[] <i>//retorna status 200 OK. Isso quer dizer que a requisição foi atendida sem erros.</i>
+•Retorno esperado:[]<br>
 
+~~~
+//retorna status 200 OK. Isso quer dizer que a requisição foi atendida sem erros.
+~~~
  
 <h2> • Tabela Usuário </h2>
   
@@ -197,7 +201,7 @@ Nossa tabela __Usuário__ terá os end-points básicos, que possibilitarão as o
  ~~~
  
  <h2> • Atualizando dados do usuário: </h2
-•Método para pesquisa: <b>/usuario/atualizarUsuario</b><br>
+•Método para pesquisa:<b>/usuario/atualizarUsuario</b><br>
 •Resultado esperado:
 
 ~~~
