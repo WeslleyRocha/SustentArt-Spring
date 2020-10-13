@@ -12,18 +12,23 @@ import com.sun.istack.NotNull;
 @Entity
 @Table(name = "tb_usuario")
 public class Usuario {
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
+	
 	@NotNull
 	@Size(min = 3, max = 100)
 	private String nome;
+	
 	@NotNull
 	@Size(min = 3, max = 30)
 	private String email;
+	
 	@NotNull
 	@Size(min = 6, max = 12)
 	private String senha;
+	
 	@NotNull
 	@Size(min = 12, max = 12)
 	private String telefone;

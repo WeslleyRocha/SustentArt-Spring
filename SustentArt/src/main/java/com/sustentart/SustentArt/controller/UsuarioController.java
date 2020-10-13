@@ -29,7 +29,7 @@ public class UsuarioController {
 	public ResponseEntity<List<Usuario>> getAll(){
 		return ResponseEntity.ok(repository.findAll());
 	}
-	
+
 	@PostMapping
 	public ResponseEntity<Usuario> post(@RequestBody Usuario usuario){
 		return ResponseEntity.status(HttpStatus.CREATED).body(repository.save(usuario));
