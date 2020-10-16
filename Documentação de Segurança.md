@@ -1,6 +1,6 @@
-<h1> :gear: CAMADA BASIC SECURITY :policeman:  <h1>
+<h1> :gear: Camada Basica de Segurança :policeman:  <h1>
 
-<h2> • Model: </h2>
+<h2> • Model </h2>
 Dentro da camada MODEL, adicionamos uma classe UsuarioLogin.
 
 <h2> • Repository </h2>
