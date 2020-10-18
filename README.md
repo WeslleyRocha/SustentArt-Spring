@@ -5,11 +5,10 @@
 
 ### 🙋‍♀️ Integrantes 🙋‍♂️
 
-[Vanessa Marchetti](https://github.com/marchettivanessa)<br> @marchettivanessa
+[Vanessa Marchetti](https://github.com/marchettivanessa)<br>
 [Henrique Tanaka](https://github.com/henritanaka)<br>
 [Josimar Santos](https://github.com/Josimar722)<br>
-[Weslley Rocha](https://github.com/WeslleyRocha)<br><br><br>  @https://github.com/WeslleyRocha
-
+[Weslley Rocha](https://github.com/WeslleyRocha)<br><br><br>  
 
 
 ## :chart_with_upwards_trend: Projeto Integrador [Generation BR](https://brazil.generation.org/) :bar_chart:
