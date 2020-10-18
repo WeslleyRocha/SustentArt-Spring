@@ -8,7 +8,7 @@
 [Vanessa Marchetti](https://github.com/marchettivanessa)<br> @marchettivanessa
 [Henrique Tanaka](https://github.com/henritanaka)<br>
 [Josimar Santos](https://github.com/Josimar722)<br>
-[Weslley Rocha](https://github.com/WeslleyRocha)<br><br><br>  @WeslleyRocha
+[Weslley Rocha](https://github.com/WeslleyRocha)<br><br><br>  @https://github.com/WeslleyRocha
 
 
 
