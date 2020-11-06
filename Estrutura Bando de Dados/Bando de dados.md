@@ -30,4 +30,4 @@ Atributos:
 2.	Data e Hora da Postagem (data e hora para consultar os posts mais recentes)
 
 
-:house_with_garden: [Home](https://github.com/WeslleyRocha/Projeto-Integrador-Generation) :house_with_garden:
+<br><br>:house_with_garden: [Home](https://github.com/WeslleyRocha/Projeto-Integrador-Generation) :house_with_garden:
