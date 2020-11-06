@@ -3,7 +3,6 @@
 <h2> DER <i>(Diagrama Entidade de Relacionamento)</i> </h2>
 
 <b>•	Tabela Usuário</b>
-
 Atributos:
 1.	 Nome (espaço para cadastro do nome completo do usuário)
 2.	 E-mail (e-mail para cadastro do usuário)
@@ -12,8 +11,7 @@ Atributos:
 5.	 Data de nascimento <i>(para verificar se o usuário é maior de idade) – em espera: a definir no 3º módulo (front-end)</i>
 6.	 Foto de perfil (foto de identificação do usuário)
 
-<b>• Tabela Postagem</b>
-  
+<b>• Tabela Postagem</b>  
 Atributos:
 1.	Título (título da postagem)
 2.	Descrição (detalhará o que é doado, ou que tipo de oficina será disponibilizada)
@@ -24,7 +22,6 @@ Atributos:
 7.	Tipo_presenca (verificará se o evento será online ou presencial)
 
 <b>• Tabela Tema:</b>
-
 Atributos:
 1.	Conteúdo (doação, cursos etc.)
 2.	Data e Hora da Postagem (data e hora para consultar os posts mais recentes)
