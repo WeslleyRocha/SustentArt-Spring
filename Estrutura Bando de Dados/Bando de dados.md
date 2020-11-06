@@ -23,7 +23,7 @@ Atributos:
 6.	Material (usuário poderá escolher se será sobre oficinas, cursos, doações, qual tipo de material doado etc.)
 7.	Tipo_presenca (verificará se o evento será online ou presencial)
 
-<b>Tabela Tema:</b>
+<b>• Tabela Tema:</b>
 
 Atributos:
 1.	Conteúdo (doação, cursos etc.)
