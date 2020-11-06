@@ -13,7 +13,7 @@
 
 ## :chart_with_upwards_trend: Projeto Integrador [Generation BR](https://brazil.generation.org/) :bar_chart:
 
-O problema social escolhido está incluído dentro da <b>ODS 12</B>: Consumo e produção responsáveis. A ideia é trazer impacto na sociedade através da diminuição do desperdício, reaproveitando recursos, ao mesmo tempo, criar uma rede de apoio na comunidade.
+O problema social escolhido está incluído dentro da <b>[ODS 12 da ONU](https://brasil.un.org/pt-br/sdgs/12)</b>: Consumo e produção responsáveis. A ideia é trazer impacto na sociedade através da diminuição do desperdício, reaproveitando recursos, ao mesmo tempo, criar uma rede de apoio na comunidade.
 
 Como motivação, pensamos no fato de que vivemos em uma sociedade desigual, na qual a fome está aumentando, e a dificuldade de acesso a produtos também. Desta forma, conectar determinadas comunidades numa rede de apoio mútuo, repensando a destinação de produtos muitas vezes considerados como lixo pode ajudar pequenos produtores e artesãos com matéria prima para elaborar e vender seus produtos.
 
