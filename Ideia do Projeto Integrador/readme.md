@@ -1,6 +1,6 @@
 <h1><b> :earth_africa: SustentArt :recycle: </b></h1> 
 
-Considerando o grande impacto ambiental que o consumo humano traz, e com base na [ODS 12 da ONU](https://brasil.un.org/pt-br/sdgs/12), nossa ideia é trazer impacto na sociedade através da diminuição do desperdício, reaproveitando recursos e, ao mesmo tempo, criar uma rede de apoio na comunidade.
+Considerando o grande impacto ambiental que o consumo humano traz, e com base na <b>[ODS 12 da ONU](https://brasil.un.org/pt-br/sdgs/12)</b>, nossa ideia é trazer impacto na sociedade através da diminuição do desperdício, reaproveitando recursos e, ao mesmo tempo, criar uma rede de apoio na comunidade.
 
 Como motivação, pensamos no fato de que vivemos em uma sociedade desigual, na qual a fome está aumentando, e a dificuldade de acesso a produtos também.
 
