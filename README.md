@@ -29,4 +29,4 @@ Desta forma, a ideia é desenvolver uma rede social, conectando os anunciantes e
 :heavy_check_mark: [Documentação de Segurança](https://github.com/WeslleyRocha/Projeto-Integrador-Generation/blob/security-service/Documenta%C3%A7%C3%A3o%20de%20Seguran%C3%A7a.md#camada-basic-security)<br>
 :clock3: [Front-End]()<br>
 :clock3: [Logomarca]()<br>
-:clock3: [Site]()<br>
+:heavy_check_mark: [Site](https://github.com/WeslleyRocha)<br>
