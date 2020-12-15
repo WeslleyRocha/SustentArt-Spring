@@ -13,7 +13,7 @@ Criamos 3 classes: (i)BasicSecuritConfig, (ii) UserDetailsImpl , e (iii) UserDet
 A BasicSecuritConfig faz a configuração básica de acesso, isto é, confirma se o acesso é ou não seguro.
 Por meio dessa classe foi possível determinar quais acessos são liberados para o cliente sem que seja necessário usar um token.
 A UserDetailsImpl criou uma autorização de acesso ao usuário (relativos ao e-mail e senha).
-Finalmente, na UserDetailsServiceImpl  criamos um método para fazer uma <b>consulta</b> ao banco de dados, para checar se já existe um e-mail igual cadastrado no branco de dados.
+Finalmente, na UserDetailsServiceImpl  criamos um método para fazer uma <b>consulta</b> ao banco de dados, para checar se já existe um e-mail igual cadastrado no banco de dados.
 Se o e-mail não existir, retornará uma autorização e solicitação para salvar o e-mail digitado.
 
 <h2> • Service </h2>
