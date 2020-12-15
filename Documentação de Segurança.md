@@ -11,7 +11,7 @@ Editamos a interface UsuarioRepository que já havia sido criada, e alteramos o 
 Criamos 3 classes: (i)BasicSecuritConfig, (ii) UserDetailsImpl , e (iii) UserDetailsServiceImpl.
 
 A BasicSecuritConfig faz a configuração básica de acesso, isto é, confirma se o acesso é ou não seguro.
-Por meio dessa classe foi possível determinais quais acessos são liberados para o cliente sem que seja necessário usar um token.
+Por meio dessa classe foi possível determinar quais acessos são liberados para o cliente sem que seja necessário usar um token.
 A UserDetailsImpl criou uma autorização de acesso ao usuário (relativos ao e-mail e senha).
 Finalmente, a UserDetailsServiceImpl  criamos um método para fazer uma <b>consulta</b> ao banco de dados, para checar se já existe um e-mail igual cadastrado no branco de dados.
 Se o e-mail não existir, retornará uma autorização e solicitação para salvar o e-mail digitado.
